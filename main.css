@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+}
+.container{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+    display: block;
+}
+.wrapper{
+    background-image: url(./images/image\ 1bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.header_btn{
+    width: 243px;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #dad3ff;
+    background: #009ff5b5;
+    border: none;
+    color: rgb(213, 213, 214);
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-shadow: 0px 4px 4px #D5D5D6;
+    transition: 0.8s ease-in-out;
+}
+.header_btn:hover{
+    background-color:#000000 ;
+    color: #dad3ff;
+}
+
+.header_heading{
+    color: #d5d5d6;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-shadow: 0px 4px 4px #0000;
+}
+.Language{
+    width: 184px;
+    text-shadow: 0px 4px 4px #000000;
+    color: #d5d5d6;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    background-color: transparent;
+    border: none;
+}
+.hero{
+    padding-top: 163px;
+    padding-bottom: 126px;
+}
+.hero_textbox{
+    width: 604px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 11px solid #5a5555;
+    border-radius: 50px;
+    background: #ffc611;
+    padding: 30px 0;
+    text-align: center;
+}
+.hero_title{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    text-shadow:0px 4px 4px #0047FF ;
+}
+.hero_box{
+    text-align: center;
+    width:361px ;
+    box-shadow: 8px 7px 20px 0px #ffffff;
+    background: #1f1f1f;
+}
+.hero_heading{
+    color: #000000;
+    padding: 15px 0;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    text-shadow:0px 4px 4px #FFC200;
+}
+.hero_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 132px;
+}
+.scn{
+    background-color: #000000;
+    padding-top: 61px;
+}
+.hero2_title{
+    
+    color: #5a5555;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-shadow: 0px 4px 4px #FFFFFF;
+}
+p{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero2_btn{
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    box-shadow: 0px 7px 12.8px 0px #ffffff;
+    background: #535353;
+    margin-top: 104px ;
+    padding:14px 71px 14px 71px ;
+    transition: 0.8s ease-in-out;
+}
+.hero2_btn:hover{
+    background-color:#000000 ;
+    color: #dad3ff;
+}
+
+.scn_wrpr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    padding-top: 56px;
+    padding-bottom: 76px;
+}
+.hero2_btn2{
+    border-radius: 10px;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    box-shadow: 0px 7px 12.8px 0px #ffffff;
+    background: #ffc200;
+    margin-top: 104px ;
+    padding:14px 71px 14px 71px ;
+    border: none;
+    transition: 0.8s ease-in-out;
+}
+.hero2_btn2:hover{
+    background-color: #000000;
+    color: #dad3ff;
+    
+}
+.footer{
+    background-color: #FFC611;
+    height: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    padding-bottom: 44px;
+}
